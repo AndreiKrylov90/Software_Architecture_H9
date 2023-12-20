@@ -10,8 +10,6 @@ Swagger(app)
 
 weather_controller = WeatherController(WeatherForecastHolder())
 
-# Далее, определяем маршруты с использованием контроллера
-
 @app.route('/add_data', methods=['POST'])
 def add_data():
     """
